@@ -33,6 +33,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install & build
         run: |
+          git submodule update
           npm install
           npm run build
       - name: Setup Pages
