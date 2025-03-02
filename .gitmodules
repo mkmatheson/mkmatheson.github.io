@@ -1,0 +1,3 @@
+[submodule "app/chord-generator"]
+	path = app/chord-generator
+	url = https://github.com/mkmatheson/chord-generator
