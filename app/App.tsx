@@ -6,8 +6,11 @@ const App = () => {
       {entries.map((entry) => {
         return (
           <div>
-            <h2>{entry.timestamp.toString()}</h2>
+            <h2>
+              <strong>{new Date(entry.timestamp).toLocaleString()}</strong>
+            </h2>
             <div>{entry.entry}</div>
+            <br />
           </div>
         );
       })}

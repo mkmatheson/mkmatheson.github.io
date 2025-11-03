@@ -1,5 +1,11 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Nov 02 2025 20:59:00 GMT-0800'),
+    entry: `
+    Fixing the export worked for remote builds. Deleting all node_modules dirs and removing the build folder seemed to fix things locally 
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 20:38:00 GMT-0800'),
     entry: `
     The embarrassing bug may be that I forgot to export the App component from App.tsx, let's see...
