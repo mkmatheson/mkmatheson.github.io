@@ -1,5 +1,11 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Nov 02 2025 21:37:00 GMT-0800'),
+    entry: `
+    Going the extra mile and adding better date/time formatting for the journal
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 21:27:00 GMT-0800'),
     entry: `
     Rudimentary guitar tablature in place. Alignment isn't great but this isn't CSS time. Next project would be to create a game where I go through every note on the fretboard. 15 notes * 6 strings = 90 notes.
