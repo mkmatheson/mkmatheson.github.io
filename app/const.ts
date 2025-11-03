@@ -1,5 +1,11 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Nov 02 2025 21:40:00 GMT-0800'),
+    entry: `
+    Journal briefly flashes in GMT time before setting locale, can fix this another time. Also I'm going to make a separate repo for the journal entry now that I figured out the routing issues, otherwise the parent branch is going to get cluttered with journal commits.
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 21:37:00 GMT-0800'),
     entry: `
     Going the extra mile and adding better date/time formatting for the journal
