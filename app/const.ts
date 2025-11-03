@@ -1,5 +1,17 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Nov 02 2025 21:27:00 GMT-0800'),
+    entry: `
+    Rudimentary guitar tablature in place. Alignment isn't great but this isn't CSS time. Next project would be to create a game where I go through every note on the fretboard. 15 notes * 6 strings = 90 notes.
+    `
+  },
+  {
+    timestamp: new Date('Sun Nov 02 2025 21:09:00 GMT-0800'),
+    entry: `
+    Before calling it a night, I'm going to add ASCII guitar tablature to the guitar note guesser
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 20:59:00 GMT-0800'),
     entry: `
     Fixing the export worked for remote builds. Deleting all node_modules dirs and removing the build folder seemed to fix things locally 
