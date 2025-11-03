@@ -4,3 +4,6 @@
 [submodule "app/toe-touching"]
 	path = app/toe-touching
 	url = https://github.com/mkmatheson/toe-touching.git
+[submodule "app/guitar-note-guesser"]
+	path = app/guitar-note-guesser
+	url = https://github.com/mkmatheson/guitar-note-guesser
