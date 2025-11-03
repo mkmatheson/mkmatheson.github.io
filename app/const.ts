@@ -1,5 +1,17 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Nov 02 2025 20:26:00 GMT-0800'),
+    entry: `
+    Turns out I needed to add submodules via "git submodule add <url> <name>" which I forgot I did for the other repos
+    `
+  },
+  {
+    timestamp: new Date('Sun Nov 02 2025 20:15:00 GMT-0800'),
+    entry: `
+    Forgot to add a .git extension to my new submodule. I thought this would fix the issue on remote builds, but it actually looks like guitar-note-guesser isn't acknowledged as part of the parent repo yet. Need to figure out a sync...
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 20:07:00 GMT-0800'),
     entry: `
     Tried committing all existing files to their corresponding sub-repositories, just to clean things up
