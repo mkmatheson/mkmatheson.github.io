@@ -1,4 +1,17 @@
 export const entries: { timestamp: Date; entry: string }[] = [
+   {
+    timestamp: new Date('Wed Nov 05 2025 21:31 GMT-0800'),
+    entry: `
+    While I was there I added refs to buttons so I could use arrowkeys as shortcuts to click the buttons. I always forget how useRefs work under the hood, I just remember that they work.
+    `
+  },
+  {
+    timestamp: new Date('Wed Nov 05 2025 21:18 GMT-0800'),
+    entry: `
+    Added grid below to show all the notes I've already covered and ensure that each additional note I reveal is a note I haven't tried yet.
+    I'll add a counter for how  many notes I have remaining and call it a night.
+    `
+  },
   {
     timestamp: new Date('Wed Nov 05 2025 19:56 GMT-0800'),
     entry: `
