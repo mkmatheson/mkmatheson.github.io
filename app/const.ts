@@ -1,5 +1,17 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Wed Nov 05 2025 19:56 GMT-0800'),
+    entry: `
+    Ok I think the issue was that I had a separate GitHub Pages deploy set up for the guitar repo, but the other submodules don't have that. Deploying this message just to retrigger the run. Will modify the guitar chord repo as well.
+    `
+  },
+  {
+    timestamp: new Date('Wed Nov 05 2025 19:49 GMT-0800'),
+    entry: `
+    For some reason, guitar app did not deploy correctly. It returns the contents of the markdown. Looking into this..
+    `
+  },
+  {
     timestamp: new Date('Sun Nov 02 2025 21:40:00 GMT-0800'),
     entry: `
     Journal briefly flashes in GMT time before setting locale, can fix this another time. Also I'm going to make a separate repo for the journal entry now that I figured out the routing issues, otherwise the parent branch is going to get cluttered with journal commits.
