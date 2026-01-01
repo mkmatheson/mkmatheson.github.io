@@ -1,6 +1,15 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
-    timestamp: new Date('Thu Jan 01 2025 13:30 GMT-0800'),
+    timestamp: new Date('Thu Jan 01 2026 13:35 GMT-0800'),
+    entry: `
+    Starting by renaming and repurposing the toe-touching webapp.
+    project url is now daily-goals
+    had to briefly modify files.exclude in vscode to see what .git files needed to be changed (**/.git)
+    turns out its too much of a pain to try modifying the exisiting repo so I'm just deleting it.
+    `
+  },
+  {
+    timestamp: new Date('Thu Jan 01 2026 13:30 GMT-0800'),
     entry: `
     Going to make a goal tracker for 2026.
     `

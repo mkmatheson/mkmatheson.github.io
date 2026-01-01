@@ -1,9 +1,9 @@
 [submodule "app/chord-generator"]
 	path = app/chord-generator
 	url = https://github.com/mkmatheson/chord-generator.git
-[submodule "app/toe-touching"]
-	path = app/toe-touching
-	url = https://github.com/mkmatheson/toe-touching.git
+[submodule "app/daily-goals"]
+	path = app/daily-goals
+	url = https://github.com/mkmatheson/daily-goals.git
 [submodule "app/guitar-note-guesser"]
 	path = app/guitar-note-guesser
 	url = https://github.com/mkmatheson/guitar-note-guesser.git
