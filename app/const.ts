@@ -1,5 +1,45 @@
 export const entries: { timestamp: Date; entry: string }[] = [
-   {
+  {
+    timestamp: new Date('Thu Jan 01 2025 13:30 GMT-0800'),
+    entry: `
+    Going to make a goal tracker for 2026.
+    `
+  },
+  {
+    timestamp: new Date('Sun Nov 09 2025 10:21 GMT-0800'),
+    entry: `
+    I want to make a "daily chord + key + tempo + time sig" combination, based on day of the year
+    Math.floor((new Date() - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24) would be the way to go
+    `
+  },
+  {
+    timestamp: new Date('Thu Nov 06 2025 22:26 GMT-0800'),
+    entry: `
+    Tomorrow I'll add the same "you've already done this note" section to GuitarNoteFinder
+    `
+  },
+  {
+    timestamp: new Date('Thu Nov 06 2025 22:20 GMT-0800'),
+    entry: `
+    Stumped on figuring out how to properly generate all notes on the fret across all strings. Current issue seems to be the way indices are calculated. It's almost as though these are getting calculated out of order...
+    Oh wait it's because I'm interpreting string 2 (B) as string 5 (A)... no wonder... Dang, I've had it right the whole time.
+    `
+  },
+  {
+    timestamp: new Date('Thu Nov 06 2025 20:50 GMT-0800'),
+    entry: `
+    It's getting late but I want to try whipping up the "find all C3's on a guitar" or maybe just "all C's" to start.
+    `
+  },
+  {
+    timestamp: new Date('Wed Nov 05 2025 21:52 GMT-0800'),
+    entry: `
+    I should do the inverse now--ask the question "where can I find A4 on a guitar?" (A4 being the fourth octave A on a piano)
+    There would be multiple answers for many of these notes, it should be an easy calculation to determine if each note is available on a given string, though.
+    I can tab toggle between finding the note based on string coordinates and vice versa
+    `
+  },
+  {
     timestamp: new Date('Wed Nov 05 2025 21:31 GMT-0800'),
     entry: `
     While I was there I added refs to buttons so I could use arrowkeys as shortcuts to click the buttons. I always forget how useRefs work under the hood, I just remember that they work.
