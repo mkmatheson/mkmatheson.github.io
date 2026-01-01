@@ -3,7 +3,7 @@
 	url = https://github.com/mkmatheson/chord-generator.git
 [submodule "app/daily-goals"]
 	path = app/daily-goals
-	url = https://github.com/mkmatheson/daily-goals.git
+	url = https://github.com/mkmatheson/daily-goals
 [submodule "app/guitar-note-guesser"]
 	path = app/guitar-note-guesser
 	url = https://github.com/mkmatheson/guitar-note-guesser.git
