@@ -1,5 +1,12 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Thu Jan 01 2026 14:26 GMT-0800'),
+    entry: `
+    Made a good solid start at a test grid that I think will work well.
+    Todo: add in individual goals and a tab/button setup to switch between them
+    `
+  },
+  {
     timestamp: new Date('Thu Jan 01 2026 13:35 GMT-0800'),
     entry: `
     Starting by renaming and repurposing the toe-touching webapp.
