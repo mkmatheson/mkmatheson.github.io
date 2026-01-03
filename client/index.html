@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="modulepreload" href="/assets/manifest-e8dc32c7.js"/><link rel="modulepreload" href="/assets/entry.client-BFhZpkrh.js"/><link rel="modulepreload" href="/assets/chunk-HA7DTUK3-DItZKCSJ.js"/><link rel="modulepreload" href="/assets/root-BmMSbCcg.js"/><link rel="modulepreload" href="/assets/with-props-Db1jVSdq.js"/><link rel="modulepreload" href="/assets/App-DY5ETfTc.js"/><link rel="stylesheet" href="/assets/root-CFb72vsM.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"/></head><body><div><div><h1 style="font-size:20px"><strong><h1>Fri Jan 02 2026</h1></strong></h1><h3><strong>8:58:00 PM</strong></h3><div>
+    Here&#x27;s everything I added:
+    - switched toe-touching goal to be old files
+    - table with month headers
+    - color coding based on criteria (the more I invested in the goal, the more opaque the color)
+      - this also allows for &quot;inverted&quot; goals where lower values are better (like screen time)
+    - event listener to allow for arrow key navigation between goals
+
+    I probably won&#x27;t push goal updates every day, meaning I&#x27;ll still log my progres locally and upload it any time I feel like it.
+    </div><br/></div><div><h1 style="font-size:20px"><strong><h1>Thu Jan 01 2026</h1></strong></h1><h3><strong>6:13:00 PM</strong></h3><div>
+    Working prototype in place, wow time flies. Nice to have this up and running, though.
+    Will commit and push tomorrow with in-depth description
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>4:36:00 PM</strong></h3><div>
+    Tried connecting to Google Sheet via API to fetch daily goal data. 
+    No luck. I need Oauth credentials but this is a client-only app.
+    Can&#x27;t fetch using the public sheet URL either - CORS error.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>2:43:00 PM</strong></h3><div>
+    Calendar isn&#x27;t routing correctly on prod
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>2:26:00 PM</strong></h3><div>
+    Made a good solid start at a test grid that I think will work well.
+    Todo: add in individual goals and a tab/button setup to switch between them
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>1:35:00 PM</strong></h3><div>
+    Starting by renaming and repurposing the toe-touching webapp.
+    project url is now daily-goals
+    had to briefly modify files.exclude in vscode to see what .git files needed to be changed (**/.git)
+    turns out its too much of a pain to try modifying the exisiting repo so I&#x27;m just deleting it.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>1:30:00 PM</strong></h3><div>
+    Going to make a goal tracker for 2026.
+    </div><br/></div><div><h1 style="font-size:20px"><strong><h1>Sun Nov 09 2025</h1></strong></h1><h3><strong>10:21:00 AM</strong></h3><div>
+    I want to make a &quot;daily chord + key + tempo + time sig&quot; combination, based on day of the year
+    Math.floor((new Date() - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24) would be the way to go
+    </div><br/></div><div><h1 style="font-size:20px"><strong><h1>Thu Nov 06 2025</h1></strong></h1><h3><strong>10:26:00 PM</strong></h3><div>
+    Tomorrow I&#x27;ll add the same &quot;you&#x27;ve already done this note&quot; section to GuitarNoteFinder
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>10:20:00 PM</strong></h3><div>
+    Stumped on figuring out how to properly generate all notes on the fret across all strings. Current issue seems to be the way indices are calculated. It&#x27;s almost as though these are getting calculated out of order...
+    Oh wait it&#x27;s because I&#x27;m interpreting string 2 (B) as string 5 (A)... no wonder... Dang, I&#x27;ve had it right the whole time.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:50:00 PM</strong></h3><div>
+    It&#x27;s getting late but I want to try whipping up the &quot;find all C3&#x27;s on a guitar&quot; or maybe just &quot;all C&#x27;s&quot; to start.
+    </div><br/></div><div><h1 style="font-size:20px"><strong><h1>Wed Nov 05 2025</h1></strong></h1><h3><strong>9:52:00 PM</strong></h3><div>
+    I should do the inverse now--ask the question &quot;where can I find A4 on a guitar?&quot; (A4 being the fourth octave A on a piano)
+    There would be multiple answers for many of these notes, it should be an easy calculation to determine if each note is available on a given string, though.
+    I can tab toggle between finding the note based on string coordinates and vice versa
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>9:31:00 PM</strong></h3><div>
+    While I was there I added refs to buttons so I could use arrowkeys as shortcuts to click the buttons. I always forget how useRefs work under the hood, I just remember that they work.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>9:18:00 PM</strong></h3><div>
+    Added grid below to show all the notes I&#x27;ve already covered and ensure that each additional note I reveal is a note I haven&#x27;t tried yet.
+    I&#x27;ll add a counter for how  many notes I have remaining and call it a night.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>7:56:00 PM</strong></h3><div>
+    Ok I think the issue was that I had a separate GitHub Pages deploy set up for the guitar repo, but the other submodules don&#x27;t have that. Deploying this message just to retrigger the run. Will modify the guitar chord repo as well.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>7:49:00 PM</strong></h3><div>
+    For some reason, guitar app did not deploy correctly. It returns the contents of the markdown. Looking into this..
+    </div><br/></div><div><h1 style="font-size:20px"><strong><h1>Sun Nov 02 2025</h1></strong></h1><h3><strong>9:40:00 PM</strong></h3><div>
+    Journal briefly flashes in GMT time before setting locale, can fix this another time. Also I&#x27;m going to make a separate repo for the journal entry now that I figured out the routing issues, otherwise the parent branch is going to get cluttered with journal commits.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>9:37:00 PM</strong></h3><div>
+    Going the extra mile and adding better date/time formatting for the journal
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>9:27:00 PM</strong></h3><div>
+    Rudimentary guitar tablature in place. Alignment isn&#x27;t great but this isn&#x27;t CSS time. Next project would be to create a game where I go through every note on the fretboard. 15 notes * 6 strings = 90 notes.
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>9:09:00 PM</strong></h3><div>
+    Before calling it a night, I&#x27;m going to add ASCII guitar tablature to the guitar note guesser
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:59:00 PM</strong></h3><div>
+    Fixing the export worked for remote builds. Deleting all node_modules dirs and removing the build folder seemed to fix things locally 
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:38:00 PM</strong></h3><div>
+    The embarrassing bug may be that I forgot to export the App component from App.tsx, let&#x27;s see...
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:26:00 PM</strong></h3><div>
+    Turns out I needed to add submodules via &quot;git submodule add &lt;url&gt; &lt;name&gt;&quot; which I forgot I did for the other repos
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:15:00 PM</strong></h3><div>
+    Forgot to add a .git extension to my new submodule. I thought this would fix the issue on remote builds, but it actually looks like guitar-note-guesser isn&#x27;t acknowledged as part of the parent repo yet. Need to figure out a sync...
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:07:00 PM</strong></h3><div>
+    Tried committing all existing files to their corresponding sub-repositories, just to clean things up
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>8:00:00 PM</strong></h3><div>
+    Update, restarting the computer did not solve the issue
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>7:54:00 PM</strong></h3><div>
+    I&#x27;m getting a lovely &amp;lt;i&amp;gt;Error: EMFILE: too many open files, watch&amp;lt;i&amp;gt;
+    when running npm run dev. Not sure what files are open but will probably do a computer restart to kill any lingering processes
+    </div><br/></div><div><h1 style="font-size:20px"><strong></strong></h1><h3><strong>7:31:00 PM</strong></h3><div>
+    This is a pretty rudimentary way to get started. I&#x27;ll come back one day and make this a proper journal DB.
+    For now it&#x27;s just a JSON config with hardcoded dates and backtick characters</div><br/></div></div><script>((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
+    }
+  })("react-router-scroll-positions", null)</script><script>window.__reactRouterContext = {"basename":"/","future":{"unstable_optimizeDeps":false,"unstable_splitRouteModules":false,"unstable_viteEnvironmentApi":false},"ssr":false,"isSpaMode":false};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/assets/manifest-e8dc32c7.js";
+import * as route0 from "/assets/root-BmMSbCcg.js";
+import * as route1 from "/assets/App-DY5ETfTc.js";
+  
+  window.__reactRouterRouteModules = {"root":route0,"App":route1};
+
+import("/assets/entry.client-BFhZpkrh.js");</script><!--$?--><template id="B:0"></template><!--/$--><div hidden id="S:0"><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_5\":-5,\"_6\":-5},\"loaderData\",{\"_3\":-5,\"_4\":-5},\"root\",\"App\",\"actionData\",\"errors\"]\n");</script><!--$?--><template id="B:1"></template><!--/$--></div><script>$RC=function(b,c,e){c=document.getElementById(c);c.parentNode.removeChild(c);var a=document.getElementById(b);if(a){b=a.previousSibling;if(e)b.data="$!",a.setAttribute("data-dgst",e);else{e=b.parentNode;a=b.nextSibling;var f=0;do{if(a&&8===a.nodeType){var d=a.data;if("/$"===d)if(0===f)break;else f--;else"$"!==d&&"$?"!==d&&"$!"!==d||f++}d=a.nextSibling;e.removeChild(a);a=d}while(a);for(;c.firstChild;)e.insertBefore(c.firstChild,a);b.data="$"}b._reactRetry&&b._reactRetry()}};$RC("B:0","S:0")</script><div hidden id="S:1"><script>window.__reactRouterContext.streamController.close();</script></div><script>$RC("B:1","S:1")</script></body></html>
