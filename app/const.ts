@@ -1,5 +1,39 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Fri Jan 02 2026 20:58 GMT-0800'),
+    entry: `
+    Here's everything I added:
+    - switched toe-touching goal to be old files
+    - table with month headers
+    - color coding based on criteria (the more I invested in the goal, the more opaque the color)
+      - this also allows for "inverted" goals where lower values are better (like screen time)
+    - event listener to allow for arrow key navigation between goals
+
+    I probably won't push goal updates every day, meaning I'll still log my progres locally and upload it any time I feel like it.
+    `
+  },
+  {
+    timestamp: new Date('Thu Jan 01 2026 18:13 GMT-0800'),
+    entry: `
+    Working prototype in place, wow time flies. Nice to have this up and running, though.
+    Will commit and push tomorrow with in-depth description
+    `
+  },
+  {
+    timestamp: new Date('Thu Jan 01 2026 16:36 GMT-0800'),
+    entry: `
+    Tried connecting to Google Sheet via API to fetch daily goal data. 
+    No luck. I need Oauth credentials but this is a client-only app.
+    Can't fetch using the public sheet URL either - CORS error.
+    `
+  },
+  {
+    timestamp: new Date('Thu Jan 01 2026 14:43 GMT-0800'),
+    entry: `
+    Calendar isn't routing correctly on prod
+    `
+  },
+  {
     timestamp: new Date('Thu Jan 01 2026 14:26 GMT-0800'),
     entry: `
     Made a good solid start at a test grid that I think will work well.
