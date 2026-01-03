@@ -1,5 +1,17 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Fri Jan 02 2026 21:22 GMT-0800'),
+    entry: `
+    Well, I think it's a routing issue due to having index.html and not index.tsx in the root of the daily-goals directory, but I'm not sure, so I'm just going to give daily-goals the same routing setup as other submodules and see what sticks. I probably need to go back and revisit which code is actually used in prod.
+    `
+  },
+  {
+    timestamp: new Date('Fri Jan 02 2026 21:17 GMT-0800'),
+    entry: `
+    Daily goals is showing the old calendar so I wonder if it's something with the index file being left as-is. I moved it to a /public directory to see if this resolves the issue on build.
+    `
+  },
+  {
     timestamp: new Date('Fri Jan 02 2026 20:58 GMT-0800'),
     entry: `
     Here's everything I added:
