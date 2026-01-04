@@ -1,5 +1,11 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sat Jan 03 2026 17:40 GMT-0800'),
+    entry: `
+    I believe I found the issue--on github, there was already a Pages deploy pipeline set up for the daily-goals repository (probably leftover from when it was toe-touching). I wonder if this was interfering with the parent repo's deploy.
+    `
+  },
+  {
     timestamp: new Date('Sat Jan 03 2026 17:32 GMT-0800'),
     entry: `
     Locally everything seems to be working fine when I run a build. So I guess I'll push to prod and see if anything miraculously changes.
