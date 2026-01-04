@@ -1,5 +1,11 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sun Jan 03 2026 20:22 GMT-0800'),
+    entry: `
+    Spent way too much time figuring out a standard heatmap. Added a "how i was feeling" section as well.
+    `
+  },
+  {
     timestamp: new Date('Sun Jan 03 2026 17:48 GMT-0800'),
     entry: `
     Success. Only problem is the timestamps. I think they're in GMT rather than local time.
