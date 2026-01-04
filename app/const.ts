@@ -1,5 +1,13 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sat Jan 03 2026 17:24 GMT-0800'),
+    entry: `
+    Because I removed the daily goal route from the routes.ts file but kept it in the config file, the build on prod failed, Got an error "Unable to prerender path because it does not match any routes: /daily-goals". So the routing was working but it's routing the wrong file.
+    I'm going to see if adding the chord generator component to the route for daily-goals works
+    
+    `
+  },
+  {
     timestamp: new Date('Sat Jan 03 2026 17:17 GMT-0800'),
     entry: `
     I added daily-set to react-router.config.ts and that got it to behave correctly. So that routing part is working. Daily goals still is showing the default github index.html file, though.
