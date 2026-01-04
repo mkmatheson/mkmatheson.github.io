@@ -1,5 +1,19 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sat Jan 03 2026 17:32 GMT-0800'),
+    entry: `
+    Locally everything seems to be working fine when I run a build. So I guess I'll push to prod and see if anything miraculously changes.
+    Just to be safe, I'm adding a <div> wrapper around the daily goals component so that my linter doesn't remove the return statement's parentheses
+    `
+  },
+  {
+    timestamp: new Date('Sat Jan 03 2026 17:27 GMT-0800'),
+    entry: `
+    This did not work due to ' Unable to define routes with duplicate route id: "chord-generator/src/App" '
+    I suppose rather than pushing code every time to prod to see if the deploy works, I can just run react-router build locally and check the build file for correct index.html files.
+    `
+  },
+  {
     timestamp: new Date('Sat Jan 03 2026 17:24 GMT-0800'),
     entry: `
     Because I removed the daily goal route from the routes.ts file but kept it in the config file, the build on prod failed, Got an error "Unable to prerender path because it does not match any routes: /daily-goals". So the routing was working but it's routing the wrong file.
