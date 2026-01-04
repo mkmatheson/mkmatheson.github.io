@@ -1,8 +1,9 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
-    timestamp: new Date('Sat Jan 03 2026 17:02 GMT-0800'),
+    timestamp: new Date('Sat Jan 03 2026 17:17 GMT-0800'),
     entry: `
-    I don't think this changes anything, but I added a /src directory to put all my components in.
+    I added daily-set to react-router.config.ts and that got it to behave correctly. So that routing part is working. Daily goals still is showing the default github index.html file, though.
+    I'm going to try removing the route altogether and verify that it removes the route from prod.
     `
   },
   {
