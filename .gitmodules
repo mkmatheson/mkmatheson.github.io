@@ -7,3 +7,6 @@
 [submodule "app/guitar-note-guesser"]
 	path = app/guitar-note-guesser
 	url = https://github.com/mkmatheson/guitar-note-guesser.git
+[submodule "app/data"]
+	path = app/data
+	url = https://github.com/mkmatheson/data.git

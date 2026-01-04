@@ -1,10 +1,26 @@
-import { entries } from './const';
+import { useEffect, useState } from 'react';
 
 const App = () => {
+  const [data, setData] = useState<{ timestamp: string; entry: string }[]>([]);
+
+  useEffect(() => {
+    let ignore = false;
+    fetch('https://cdn.jsdelivr.net/gh/mkmatheson/data@latest/journal.json')
+      .then((response) => response.json())
+      .then((json) => {
+        if (!ignore) {
+          setData(json);
+        }
+      });
+    return () => {
+      ignore = true;
+    };
+  }, []);
+
   let prevDate: string | Date = '';
   return (
     <div>
-      {entries.map((entry) => {
+      {data.map((entry) => {
         const date = new Date(entry.timestamp);
         const dateString = date.toDateString();
         let dateHeader: any = '';
