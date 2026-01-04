@@ -1,5 +1,23 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sat Jan 03 2026 17:02 GMT-0800'),
+    entry: `
+    I don't think this changes anything, but I added a /src directory to put all my components in.
+    `
+  },
+  {
+    timestamp: new Date('Sat Jan 03 2026 16:59 GMT-0800'),
+    entry: `
+    For daily goals, I don't have static assets to load, so the basic index.html file I copied over from other files is trying to import non-existent files. The preview response on the page also gets the "you need javascript to run this page" message. Need to figure out why that is, since this works locally without issue.
+    `
+  },
+  {
+    timestamp: new Date('Sat Jan 03 2026 16:55 GMT-0800'),
+    entry: `
+    I tried adding the index.html file back into the src directory and I think the parent app is routing to that file because the page <title> is "React App". However, I'm get 400s back on the static assets it's trying to load.
+    `
+  },
+  {
     timestamp: new Date('Fri Jan 02 2026 21:22 GMT-0800'),
     entry: `
     Well, I think it's a routing issue due to having index.html and not index.tsx in the root of the daily-goals directory, but I'm not sure, so I'm just going to give daily-goals the same routing setup as other submodules and see what sticks. I probably need to go back and revisit which code is actually used in prod.
