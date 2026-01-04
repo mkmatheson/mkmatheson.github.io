@@ -6,6 +6,12 @@ export default {
   ssr: false,
   // return a list of URLs to prerender at build time
   async prerender() {
-    return ['/', '/chord-generator', '/daily-goals', '/guitar-note-guesser'];
+    return [
+      '/',
+      '/chord-generator',
+      '/daily-goals',
+      '/daily-set',
+      '/guitar-note-guesser'
+    ];
   }
 } satisfies Config;
