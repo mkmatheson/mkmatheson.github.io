@@ -1,8 +1,14 @@
 export const entries: { timestamp: Date; entry: string }[] = [
   {
+    timestamp: new Date('Sat Jan 03 2026 17:46 GMT-0800'),
+    entry: `
+    Forgot to hit save on disabling the branch deploy for the daily-goals repo. Triggering redeploy.
+    `
+  },
+  {
     timestamp: new Date('Sat Jan 03 2026 17:40 GMT-0800'),
     entry: `
-    I believe I found the issue--on github, there was already a Pages deploy pipeline set up for the daily-goals repository (probably leftover from when it was toe-touching). I wonder if this was interfering with the parent repo's deploy.
+    I believe I found the issue--on github, there was already a Pages deploy pipeline set up for the daily-goals repository (probably leftover from when it was toe-touching). I wonder if this was interfering with the parent repo's deploy. This happened before with guitar-note-guesser.
     `
   },
   {
