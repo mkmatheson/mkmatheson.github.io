@@ -5,6 +5,17 @@ const App = () => {
 
   useEffect(() => {
     let ignore = false;
+    console.log(process.env.NODE_ENV);
+    if (process.env.NODE_ENV === 'development' && !ignore) {
+      import('./data/journal.json').then((data) => {
+        if (data['default']) {
+          setData(data['default'] as { timestamp: string; entry: string }[]);
+        }
+      });
+      return () => {
+        ignore = true;
+      };
+    }
     fetch('https://cdn.jsdelivr.net/gh/mkmatheson/data@latest/journal.json')
       .then((response) => response.json())
       .then((json) => {
