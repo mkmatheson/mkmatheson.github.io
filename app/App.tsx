@@ -30,7 +30,7 @@ const App = () => {
           All of these questions have already been asked. It won't hurt to ask
           them again... and again...
         </p>
-        {/* <div style={{ margin: '8px' }}>
+        <div style={{ margin: '8px' }}>
           <p>
             Optional: Name a specific technology (nuclear energy, A.I., the
             inclined plane, etc.)
@@ -63,7 +63,7 @@ const App = () => {
               {String.fromCharCode(10227)}
             </button>
           )}
-        </div> */}
+        </div>
         <ul style={{ listStyleType: 'square', marginLeft: '20px' }}>
           <li>
             Are there enough safeguards in place to prevent {technologyText}{' '}
