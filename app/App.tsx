@@ -66,13 +66,13 @@ const App = () => {
           </li>
           <li>
             Catastrophe aside, who suffers the most from {technologyText}’s
-            usage?
+            regular usage?
           </li>
           <li>Who benefits the least from it?</li>
           <li>Who benefits the most from it?</li>
           <li>What proportions of the population are those groups?</li>
           <li>
-            Who gets to decide if the effects on certain groups are justified in
+            Who gets to decide if the effects on other groups are justified in
             favor of those who benefit the most?
           </li>
           <li>
@@ -111,7 +111,7 @@ const App = () => {
           <li>
             If people exercise the right to opt out of using {technologyText},
             what supports should be in place to ensure they do not experience a
-            notable decrease in opportunities or quality of life?
+            significant decrease in opportunities or quality of life?
           </li>
           <li>
             How far removed from each other are those who are suffering and
