@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 
 const App = () => {
-  const [data, setData] = useState<{ timestamp: string; entry: string }[]>([]);
+  const [data, setData] = useState<{ timestamp: string; entry: string; tags?: string[] }[]>([]);
 
   useEffect(() => {
     let ignore = false;
     if (process.env.NODE_ENV === 'development' && !ignore) {
       import('./data/journal.json').then((data) => {
         if (data['default']) {
-          setData(data['default'] as { timestamp: string; entry: string }[]);
+          setData(data['default'] as { timestamp: string; entry: string; tags?: string[] }[]);
         }
       });
       return () => {
