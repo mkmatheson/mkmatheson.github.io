@@ -16,10 +16,6 @@ const App = () => {
       <title>Questions on new technologies</title>
       <meta property="og:title" content="Questions on new technologies" />
       <meta property="og:description" content="Questions worth revisiting" />
-      <meta
-        property="og:image"
-        content="https://drive.google.com/file/d/1Vu8bP9AZ-N41HPAK1CQ53hZteiNcIZLa/preview"
-      />
       <meta property="og:url" content="https://mkmatheson.github.io/" />
       {/* questions */}
       <div style={{ margin: '20px' }}>
