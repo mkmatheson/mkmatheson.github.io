@@ -17,27 +17,36 @@ const App = () => {
       <meta property="og:title" content="Questions on new technologies" />
       <meta property="og:description" content="Questions worth revisiting" />
       <meta property="og:url" content="https://mkmatheson.github.io/" />
+      <meta
+        property="og:image"
+        content="https://raw.githubusercontent.com/mkmatheson/data/97a74914606afbd8a5b60bceb730eab9b8500c36/home_page_preview.png"
+      />
       {/* questions */}
       <div style={{ margin: '20px' }}>
         <h1 style={{ fontSize: '32px', fontWeight: '700' }}>
           Questions on new technologies
         </h1>
         <p style={{ fontSize: '18px', fontWeight: '400' }}>
-          All of these questions have already been asked. Let's ask them again
-          just to be safe.
+          All of these questions have already been asked. It won't hurt to ask
+          them again... and again...
         </p>
-        <div style={{ margin: '8px' }}>
-          <p>Optional: Name a specific technology</p>
+        {/* <div style={{ margin: '8px' }}>
+          <p>
+            Optional: Name a specific technology (nuclear energy, A.I., the
+            inclined plane, etc.)
+          </p>
           <input
             style={{
               border: '1px solid black',
-              margin: '8px'
+              margin: '8px',
+              minWidth: '200px'
             }}
             type="text"
             onChange={(event) => {
               setTechnology(event.target.value);
             }}
             value={technology}
+            placeholder="Type here..."
           />
           {technology.length > 0 && (
             <button
@@ -54,7 +63,7 @@ const App = () => {
               {String.fromCharCode(10227)}
             </button>
           )}
-        </div>
+        </div> */}
         <ul style={{ listStyleType: 'square', marginLeft: '20px' }}>
           <li>
             Are there enough safeguards in place to prevent {technologyText}{' '}
@@ -106,8 +115,8 @@ const App = () => {
           </li>
           <li>
             If people exercise the right to opt out of using {technologyText},
-            what supports should be in place to ensure they do not experience a
-            significant decrease in opportunities or quality of life?
+            what supports should be in place to avoid a significant decrease in
+            their opportunities or quality of life?
           </li>
           <li>
             How far removed from each other are those who are suffering and
